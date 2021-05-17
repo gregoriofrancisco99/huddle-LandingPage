@@ -1,0 +1,80 @@
+@media (max-width: 720px) {
+  body {
+    background: url("./../images/bg-mobile.svg") hsl(257, 40%, 49%) no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  header {
+    padding: 0;
+    margin: 1em 0 2em 1em;
+  }
+
+  header img {
+    width: 5em;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main div {
+    padding: 0;
+    margin-bottom: 2em;
+  }
+  main div img {
+    width: 12em;
+  }
+
+  article {
+    padding: 0 2em;
+    margin: 0;
+
+    text-align: center;
+  }
+
+  article h1 {
+    font-weight: 600;
+    font-size: 1em;
+
+    margin-bottom: 1em;
+  }
+
+  article p {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  article a {
+    padding: 1em 8em;
+    font-size: 0.5em;
+
+    margin-bottom: 1.75em;
+  }
+  #social_links {
+    justify-content: center;
+
+    position: static;
+    justify-content: center;
+  }
+
+  nav {
+    padding: 0;
+    margin: 3em 0 1em 0;
+  }
+
+  li {
+    padding: 0 0.5em;
+  }
+
+  footer {
+    position: static;
+  }
+
+  #f_wrapper {
+    position: static;
+    display: inline;
+  }
+}
